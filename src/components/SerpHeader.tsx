@@ -156,7 +156,7 @@ export const SerpHeader: React.FC<SerpHeaderProps> = ({
               setAccountOpen(false);
             }}
             className="p-2 rounded-full hover:bg-gray-500/15 transition-colors cursor-pointer"
-            title="Google apps"
+            title="Goeogle apps"
           >
             <GoogleWaffleIcon />
           </button>
@@ -169,7 +169,7 @@ export const SerpHeader: React.FC<SerpHeaderProps> = ({
               setSettingsOpen(false);
             }}
             className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-600 via-indigo-500 to-blue-500 text-white font-medium text-xs flex items-center justify-center cursor-pointer shadow-xs"
-            title="Google Account"
+            title="Goeogle Account"
           >
             B
           </button>

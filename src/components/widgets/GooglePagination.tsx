@@ -19,10 +19,13 @@ export const GooglePagination: React.FC<GooglePaginationProps> = ({
         {/* 'G' */}
         <span className="text-[#4285F4] text-4xl mb-0.5">G</span>
 
-        {/* 'o' letters for each page */}
+        {/* 'o', 'e', and 'o' letters for each page */}
         {pages.map((p) => {
           const isCurrent = p === currentPage;
-          const color = isCurrent ? '#EA4335' : '#FBBC05';
+          // Colors: alternate Google colors. Just use original logic.
+          const color = isCurrent ? '#EA4335' : (p % 2 === 0 ? '#FBBC05' : '#4285F4');
+          const letter = p === 2 ? 'e' : 'o';
+          
           return (
             <div
               key={p}
@@ -30,7 +33,7 @@ export const GooglePagination: React.FC<GooglePaginationProps> = ({
               className="flex flex-col items-center cursor-pointer group px-0.5"
             >
               <span style={{ color }} className="text-3xl leading-none group-hover:scale-110 transition-transform">
-                o
+                {letter}
               </span>
               <span
                 className={`text-xs mt-1 font-sans ${

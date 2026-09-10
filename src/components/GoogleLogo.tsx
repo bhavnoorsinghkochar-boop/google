@@ -17,10 +17,10 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
         id="google-logo-serp"
         onClick={onClick}
         className={`cursor-pointer select-none flex items-center ${className}`}
-        title="Go to Google Home"
+        title="Go to Goeogle Home"
       >
         <svg
-          viewBox="0 0 92 30"
+          viewBox="0 0 110 30"
           className="h-8 w-auto"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -46,7 +46,7 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
           >
             o
           </text>
-          {/* o */}
+          {/* e */}
           <text
             x="36"
             y="24"
@@ -55,9 +55,9 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
             fontSize="28"
             fontWeight="500"
           >
-            o
+            e
           </text>
-          {/* g */}
+          {/* o */}
           <text
             x="52"
             y="24"
@@ -66,9 +66,9 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
             fontSize="28"
             fontWeight="500"
           >
-            g
+            o
           </text>
-          {/* l */}
+          {/* g */}
           <text
             x="68"
             y="24"
@@ -77,13 +77,24 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
             fontSize="28"
             fontWeight="500"
           >
+            g
+          </text>
+          {/* l */}
+          <text
+            x="84"
+            y="24"
+            fill="#EA4335"
+            fontFamily="'Product Sans', -apple-system, Roboto, sans-serif"
+            fontSize="28"
+            fontWeight="500"
+          >
             l
           </text>
           {/* e */}
           <text
-            x="76"
+            x="92"
             y="24"
-            fill="#EA4335"
+            fill="#FBBC05"
             fontFamily="'Product Sans', -apple-system, Roboto, sans-serif"
             fontSize="28"
             fontWeight="500"
@@ -100,11 +111,11 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
       id="google-logo-home"
       onClick={onClick}
       className={`cursor-pointer select-none flex items-center justify-center transition-transform hover:scale-[1.01] ${className}`}
-      title="Google"
+      title="Goeogle"
     >
       <svg
-        viewBox="0 0 272 92"
-        className="w-[272px] h-[92px] max-w-full"
+        viewBox="0 0 320 92"
+        className="w-[320px] h-[92px] max-w-full"
         xmlns="http://www.w3.org/2000/svg"
       >
         {/* Exact Google Brand Colors & Proportions */}
@@ -139,7 +150,7 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
           fontWeight="500"
           letterSpacing="-1px"
         >
-          o
+          e
         </text>
         <text
           x="158"
@@ -150,7 +161,7 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
           fontWeight="500"
           letterSpacing="-1px"
         >
-          g
+          o
         </text>
         <text
           x="207"
@@ -161,12 +172,23 @@ export const GoogleLogo: React.FC<GoogleLogoProps> = ({
           fontWeight="500"
           letterSpacing="-1px"
         >
+          g
+        </text>
+        <text
+          x="256"
+          y="74"
+          fill="#EA4335"
+          fontFamily="'Product Sans', -apple-system, 'Futura', Roboto, sans-serif"
+          fontSize="86"
+          fontWeight="500"
+          letterSpacing="-1px"
+        >
           l
         </text>
         <text
-          x="229"
+          x="278"
           y="74"
-          fill="#EA4335"
+          fill="#FBBC05"
           fontFamily="'Product Sans', -apple-system, 'Futura', Roboto, sans-serif"
           fontSize="86"
           fontWeight="500"

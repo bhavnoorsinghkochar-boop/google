@@ -27,16 +27,16 @@ import { INITIAL_SEARCH_HISTORY } from './data/mockData';
 
 // Multilingual labels for Google
 const LOCALES: Record<string, { name: string; searchBtn: string; luckyBtn: string; offeredIn: string }> = {
-  en: { name: 'English', searchBtn: 'Google Search', luckyBtn: "I'm Feeling Lucky", offeredIn: 'Google offered in:' },
-  hi: { name: 'हिन्दी', searchBtn: 'Google खोज', luckyBtn: 'मेरी किस्मत अच्छी है', offeredIn: 'Google इन भाषाओं में भी उपलब्ध है:' },
-  bn: { name: 'বাংলা', searchBtn: 'Google অনুসন্ধান', luckyBtn: 'ভাগ্য পরীক্ষা করুন', offeredIn: 'Google এই ভাষায় পাওয়া যাচ্ছে:' },
-  te: { name: 'తెలుగు', searchBtn: 'Google శోధన', luckyBtn: 'నా అదృష్టం బాగుంది', offeredIn: 'Google వీటిలో అందించబడుతోంది:' },
-  mr: { name: 'मराठी', searchBtn: 'Google शोध', luckyBtn: 'माझे नशीब चांगले आहे', offeredIn: 'Google यामध्ये उपलब्ध आहे:' },
-  ta: { name: 'தமிழ்', searchBtn: 'Google தேடல்', luckyBtn: 'நான் அதிர்ஷ்டசாலி', offeredIn: 'Google இந்த மொழிகளில் கிடைக்கிறது:' },
-  gu: { name: 'ગુજરાતી', searchBtn: 'Google શોધ', luckyBtn: 'હું નસીબદાર છું', offeredIn: 'Google આ ભાષાઓમાં ઉપલબ્ધ છે:' },
-  kn: { name: 'ಕನ್ನಡ', searchBtn: 'Google ಹುಡುಕಾಟ', luckyBtn: 'ನನ್ನ ಅದೃಷ್ಟ ಚನ್ನಾಗಿದೆ', offeredIn: 'Google ಈ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿದೆ:' },
-  ml: { name: 'മലയാളം', searchBtn: 'Google തിരയൽ', luckyBtn: 'എനിക്ക് ഭാഗ്യമുണ്ട്', offeredIn: 'Google ഈ ഭാഷകളിൽ ലഭ്യമാണ്:' },
-  pa: { name: 'ਪੰਜਾਬੀ', searchBtn: 'Google ਖੋਜ', luckyBtn: 'ਮੈਂ ਕਿਸਮਤ ਵਾਲਾ ਹਾਂ', offeredIn: 'Google ਇਹਨਾਂ ਵਿੱਚ ਉਪਲਬਧ ਹੈ:' }
+  en: { name: 'English', searchBtn: 'Goeogle Search', luckyBtn: "I'm Feeling Lucky", offeredIn: 'Goeogle offered in:' },
+  hi: { name: 'हिन्दी', searchBtn: 'Goeogle खोज', luckyBtn: 'मेरी किस्मत अच्छी है', offeredIn: 'Goeogle इन भाषाओं में भी उपलब्ध है:' },
+  bn: { name: 'বাংলা', searchBtn: 'Goeogle অনুসন্ধান', luckyBtn: 'ভাগ্য পরীক্ষা করুন', offeredIn: 'Goeogle এই ভাষায় পাওয়া যাচ্ছে:' },
+  te: { name: 'తెలుగు', searchBtn: 'Goeogle శోధన', luckyBtn: 'నా అదృష్టం బాగుంది', offeredIn: 'Goeogle వీటిలో అందించబడుతోంది:' },
+  mr: { name: 'मराठी', searchBtn: 'Goeogle शोध', luckyBtn: 'माझे नशीब चांगले आहे', offeredIn: 'Goeogle यामध्ये उपलब्ध आहे:' },
+  ta: { name: 'தமிழ்', searchBtn: 'Goeogle தேடல்', luckyBtn: 'நான் அதிர்ஷ்டசாலி', offeredIn: 'Goeogle இந்த மொழிகளில் கிடைக்கிறது:' },
+  gu: { name: 'ગુજરાતી', searchBtn: 'Goeogle શોધ', luckyBtn: 'હું નસીબદાર છું', offeredIn: 'Goeogle આ ભાષાઓમાં ઉપલબ્ધ છે:' },
+  kn: { name: 'ಕನ್ನಡ', searchBtn: 'Goeogle ಹುಡುಕಾಟ', luckyBtn: 'ನನ್ನ ಅದೃಷ್ಟ ಚನ್ನಾಗಿದೆ', offeredIn: 'Goeogle ಈ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿದೆ:' },
+  ml: { name: 'മലയാളം', searchBtn: 'Goeogle തിരയൽ', luckyBtn: 'എനിക്ക് ഭാഗ്യമുണ്ട്', offeredIn: 'Goeogle ഈ ഭാഷകളിൽ ലഭ്യമാണ്:' },
+  pa: { name: 'ਪੰਜਾਬੀ', searchBtn: 'Goeogle ਖੋਜ', luckyBtn: 'ਮੈਂ ਕਿਸਮਤ ਵਾਲਾ ਹਾਂ', offeredIn: 'Goeogle ਇਹਨਾਂ ਵਿੱਚ ਉਪਲਬਧ ਹੈ:' }
 };
 
 const LUCKY_PHRASES = [
@@ -50,7 +50,7 @@ const LUCKY_PHRASES = [
 
 const LUCKY_TOPICS = [
   'James Webb Space Telescope discoveries',
-  'Google Doodles Archive',
+  'Goeogle Doodles Archive',
   'Albert Einstein general relativity',
   'Photosynthesis molecular process',
   'Ancient wonders of the world',
@@ -86,9 +86,9 @@ export default function App() {
   // Sync page title
   useEffect(() => {
     if (activeSearch) {
-      document.title = `${activeSearch} - Google Search`;
+      document.title = `${activeSearch} - Goeogle Search`;
     } else {
-      document.title = 'Google';
+      document.title = 'Goeogle';
     }
   }, [activeSearch]);
 
@@ -166,7 +166,7 @@ export default function App() {
             onSelectApp={(appName) => executeSearch(appName)}
             onImagesClick={() => {
               setActiveTab('images');
-              executeSearch('Google Images');
+              executeSearch('Goeogle Images');
             }}
           />
 

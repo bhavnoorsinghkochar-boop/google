@@ -259,7 +259,7 @@ export const GoogleAppsModal: React.FC<GoogleAppsModalProps> = ({
               : 'text-[#1a73e8] hover:bg-[#f1f3f4]'
           }`}
         >
-          More from Google
+          More from Goeogle
         </a>
       </div>
     </div>

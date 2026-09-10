@@ -93,7 +93,7 @@ export const MapsView: React.FC<MapsViewProps> = ({ maps, isDark }) => {
               rel="noopener noreferrer"
               className="inline-block px-4 py-2 rounded-full bg-[#1a73e8] text-white text-xs font-medium hover:bg-blue-600 transition-colors"
             >
-              Open in Google Maps
+              Open in Goeogle Maps
             </a>
           </div>
         )}

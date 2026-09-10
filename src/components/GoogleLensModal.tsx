@@ -88,7 +88,7 @@ export const GoogleLensModal: React.FC<GoogleLensModalProps> = ({
 
         <div className="flex items-center gap-3 mb-6">
           <GoogleLensIcon size={28} />
-          <h2 className="text-lg sm:text-xl font-normal">Search any image with Google Lens</h2>
+          <h2 className="text-lg sm:text-xl font-normal">Search any image with Goeogle Lens</h2>
         </div>
 
         {/* Drag and drop box */}

@@ -61,7 +61,7 @@ export const GoogleAccountModal: React.FC<GoogleAccountModalProps> = ({
               : 'border-[#dadce0] text-[#1a73e8] hover:bg-[#f8f9fa]'
           }`}
         >
-          Manage your Google Account
+          Manage your Goeogle Account
         </a>
       </div>
 
@@ -84,7 +84,7 @@ export const GoogleAccountModal: React.FC<GoogleAccountModalProps> = ({
 
         <button
           type="button"
-          onClick={() => alert('Signed out of Google session.')}
+          onClick={() => alert('Signed out of Goeogle session.')}
           className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-xs font-normal transition-colors text-left ${
             isDark ? 'hover:bg-[#3c4043]' : 'hover:bg-[#f1f3f4]'
           }`}

@@ -98,7 +98,7 @@ export const GoogleHeader: React.FC<GoogleHeaderProps> = ({
           className={`p-2 rounded-full transition-colors cursor-pointer ${
             isDark ? 'text-gray-300 hover:bg-[#3c4043]' : 'text-gray-600 hover:bg-gray-100'
           }`}
-          title="Google apps"
+          title="Goeogle apps"
         >
           <GoogleWaffleIcon />
         </button>
@@ -111,7 +111,7 @@ export const GoogleHeader: React.FC<GoogleHeaderProps> = ({
             setAppsOpen(false);
           }}
           className="w-8 h-8 rounded-full bg-gradient-to-tr from-purple-600 via-indigo-500 to-blue-500 text-white font-medium text-xs flex items-center justify-center ring-2 ring-transparent hover:ring-gray-300 transition-all cursor-pointer shadow-xs"
-          title="Google Account"
+          title="Goeogle Account"
         >
           B
         </button>
